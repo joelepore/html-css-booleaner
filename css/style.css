@@ -1,0 +1,20 @@
+/* Resetto margin e padding sul body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../img/pattern.png");
+  background-size: 35% 200%;
+  background-repeat: repeat-x;
+  background-position-x: 10%;
+  background-color: #4ea1ff;
+}
+
+#logo {
+  width: 10rem;
+  padding-top: 2rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.3rem;
+}

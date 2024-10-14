@@ -24,3 +24,9 @@ Attenzione: per i nomi dei file usate sempre lettere minuscole e trattini al pos
 4. Sempre nella cartella repo create la cartella css nella quale inserirete creandolo/i il/i vostri file css.
 Ricordatevi di pushare di tanto in tanto per consegnare il vostro lavoro in modo incrementale.
 Buon lavoro!
+
+## Svolgimento
+
+1. Creo i file README.md, index.html, style.css
+2. Creo lo scheletro della pagina (header, main, footer) nell'index.html
+3. Procedo col costruire la pagina pezzo per pezzo e creo uno stile css per ognuno fino al completamento del progetto
