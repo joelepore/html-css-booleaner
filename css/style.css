@@ -1,5 +1,5 @@
-/* Resetto margin e padding sul body */
-body {
+/* Resetto margin e padding su tutti gli elementi */
+* {
   margin: 0;
   padding: 0;
 }
@@ -12,9 +12,72 @@ header {
   background-color: #4ea1ff;
 }
 
+main {
+  margin: 0.5rem;
+}
+
+ul {
+  margin-left: 1rem;
+}
+
+/* Decido di creare delle utility classes per riutilizzarle nel codice */
+/* Utility */
+.text-gray {
+  color: gray;
+}
+
+.text-white {
+  color: white;
+}
+
+.hl-yellow {
+  background-color: yellow;
+}
+
+.w-40p {
+  width: 40%;
+}
+
+.bg-celeste {
+  background-color: #1dace3;
+}
+
+.bg-celestino {
+  background-color: #b1e6f2;
+}
+
+/* Header */
 #logo {
   width: 10rem;
   padding-top: 2rem;
   padding-left: 0.5rem;
   padding-bottom: 0.3rem;
+}
+
+/* Main */
+h1 {
+  font-size: xx-large;
+  padding: 0.2rem 0;
+}
+
+article>div {
+  margin-top: 1rem;
+}
+
+article>div p {
+  font-size: .9rem;
+}
+
+article>p {
+  margin: 2rem 0;
+}
+
+#article-date {
+  margin: 0;
+}
+
+article table {
+  width: 100%;
+  text-align: left;
+  margin: 2rem 0;
 }
