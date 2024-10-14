@@ -1,0 +1,5 @@
+/* aggiungo margine lateralmente */
+main,
+footer {
+  margin: 0 10rem;
+}
